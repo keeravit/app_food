@@ -47,7 +47,7 @@ jobs:
 
       
       - name: Build apk
-         run: flutter build apk
+        run: flutter build apk
   
       
       - name: Upload apk to Firebase distribution

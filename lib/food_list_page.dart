@@ -52,11 +52,13 @@ class FoodListPage extends StatelessWidget {
     },
   ];
 
+   FoodListPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("รายการอาหาร"),
+        title: const Text("รายการอาหาร"),
       ),
       body: ListView(
         children: [
@@ -75,7 +77,7 @@ class FoodListPage extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Text(
         title,
-        style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+        style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
       ),
     );
   }
@@ -100,17 +102,17 @@ class FoodListPage extends StatelessWidget {
                   height: 200,
                   fit: BoxFit.cover,
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 Text(
                   food['name']!,
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 Text(
                   food['description']!,
-                  style: TextStyle(fontSize: 14, color: Colors.grey),
+                  style: const TextStyle(fontSize: 14, color: Colors.grey),
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: () {
                     Navigator.push(
@@ -120,7 +122,7 @@ class FoodListPage extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text("ดูรายละเอียด"),
+                  child: const Text("ดูรายละเอียด"),
                 ),
               ],
             ),

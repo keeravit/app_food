@@ -45,13 +45,11 @@ jobs:
         run: flutter analyze
         # optionally use --fatal-warnings to stop execution if any warnings are found
 
-      # Runs unit test
-      # Create android apk
-# Create android apk
+      
 - name: Build apk
   run: flutter build apk
   
-  # Upload apk to Firebase distribution
+      
 - name: Upload apk to Firebase distribution
   uses: wzieba/Firebase-Distribution-Github-Action@v1.7.0
   with:

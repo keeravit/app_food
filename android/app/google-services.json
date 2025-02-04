@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "863694413966",
-    "project_id": "fir-mo-187cf",
-    "storage_bucket": "fir-mo-187cf.firebasestorage.app"
+    "project_number": "781085968731",
+    "project_id": "jjlksukuna",
+    "storage_bucket": "jjlksukuna.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:863694413966:android:32ddceb94d1820ad85a9df",
+        "mobilesdk_app_id": "1:781085968731:android:85604a5ae7b4e6faf0b27e",
         "android_client_info": {
           "package_name": "com.flutterthailand.flutter_application_2"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBragtCS_Y-JoDNniOLWq63KgNO1pM9SoQ"
+          "current_key": "AIzaSyC1UGZMxv776oUsxFC5uLIPfn5qsLgGHLI"
         }
       ],
       "services": {

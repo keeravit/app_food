@@ -34,7 +34,7 @@ class FoodDetailPage extends StatelessWidget {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () => _launchURL(food['youtubeLink']!),
-              chil: const Text('ไปที่ YouTube'),
+              child: const Text('ไปที่ YouTube'),
             ),
           ],
         ),
